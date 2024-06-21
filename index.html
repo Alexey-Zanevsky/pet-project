@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monefy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="nav">
+        <img class="nav_logo" src="imgs/monefy_logo.png"></img>
+        <div class="nav-mini">
+          <div class="nav-item">Features</div>
+          <div class="nav-item">Reviews</div>
+          <div class="nav-item">Get Started</div>
+          <img src="imgs/profile.png" alt="user" class="user">
+        </div>
+      </nav>
+
+      <section class="section-1">
+
+        <div class="left-section-1">
+          <div class="dayButton">
+            <button class="date-style" id="dayButton">Day</button>
+            <div class="popup-calendar" id="dayCalendar">
+  
+              <div class="current-month">
+                <button class="current-month_arrow"><</button>
+                <p class="current-month_p">july</p>
+                <button class="current-month_arrow">></button>
+              </div>
+                           
+              <table class="calendar">
+                <tr class="weekday-tr">
+                  <td class="day-of-week">mon</td>
+                  <td class="day-of-week">tue</td>
+                  <td class="day-of-week">wed</td>
+                  <td class="day-of-week">thu</td>
+                  <td class="day-of-week">fri</td>
+                  <td class="day-of-week">sat</td>
+                  <td class="day-of-week">sun</td>
+                </tr>
+                <tr>
+                  <td id="day">28</td>
+                  <td id="day">29</td>
+                  <td id="day">30</td>
+                  <td id="day">31</td>
+                  <td id="day">1</td>
+                  <td id="day">2</td>
+                  <td id="day">3</td>
+                </tr>
+      
+                <tr>
+                  <td id="day">4</td>
+                  <td id="day">5</td>
+                  <td id="day">6</td>
+                  <td id="day">7</td>
+                  <td id="day">8</td>
+                  <td id="day">9</td>
+                  <td id="day">10</td>
+                </tr>
+                <tr>
+                  <td id="day">11</td>
+                  <td id="day">12</td>
+                  <td id="day">13</td>
+                  <td id="day">14</td>
+                  <td id="day">15</td>
+                  <td id="day">16</td>
+                  <td id="day">17</td>
+                </tr>
+                <tr>
+                  <td id="day">18</td>
+                  <td id="day" class="today">19</td>
+                  <td id="day">20</td>
+                  <td id="day">21</td>
+                  <td id="day">22</td>
+                  <td id="day">23</td>
+                  <td id="day">24</td>
+                </tr>
+                <tr>
+                  <td id="day">25</td>
+                  <td id="day">26</td>
+                  <td id="day">27</td>
+                  <td id="day">28</td>
+                  <td id="day">29</td>
+                  <td id="day">30</td>
+                  <td id="day">31</td>
+                </tr>
+                <tr>
+                  <td id="day">1</td>
+                  <td id="day">2</td>
+                  <td id="day">3</td>
+                  <td id="day">4</td>
+                  <td id="day">5</td>
+                  <td id="day">6</td>
+                  <td id="day">7</td>
+                </tr>
+      
+              </table>
+            </div>
+          </div>
+          <button class="week date-style">Week</button>
+          <button class="month date-style">Month</button>
+          <button class="year date-style">Year</button>
+          <button class="allTime date-style">All time</button>
+          <button class="dateSelection date-style">Date selection</button>
+          <div class="date">14.08 - 20.08</div>
+        </div>
+
+        <div class="right-section-1">
+          <hr class="line">
+          <div class="options">
+            <button class="options-item"><img class="options-img" src="/imgs/brochure.png" alt="categories"><div class="options-text">Categories</div></button>
+            <button class="options-item"><img class="options-img" src="/imgs/wallet.png" alt="wallet"><div class="options-text">Wallet</div></button>
+            <button class="options-item"><img class="options-img" src="/imgs/dollar.png" alt="currencies"><div class="options-text">Currencies</div></button>
+            <button class="options-item"><img class="options-img" src="/imgs/settings.png" alt="settings"><div class="options-text">Settings</div></button>
+          </div>
+        </div>
+        
+      </section>
+
+    </div>
+
+    <div class="outOfSection-2">
+      <div class="wrapper">
+        <section class="section-2">
+          
+          <div class="left-section-2">
+            <div class="balance">Balance 1738.22zł</div>
+            <div class="pieChart-wrapper">
+              <div class="pieChart">
+                <span class="progressValue">5%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/house.png" alt="houseImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/boxing.png" alt="boxingImg">
+  
+                </div>
+                <span class="pieRecord-procent">11%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/dental-hygiene.png" alt="hygieneImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/subway.png" alt="subwayImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/hot-coffee.png" alt="caffeImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/wifi.png" alt="wifiImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/groceries.png" alt="groceriesImg">
+                </div>
+                <span class="pieRecord-procent">60%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/movies.png" alt="moviesImg">
+                </div>
+                <span class="pieRecord-procent">23%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/products.png" alt="productsImg">
+                </div>
+                <span class="pieRecord-procent">10%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/bill.png" alt="billImg">
+                </div>
+                <span class="pieRecord-procent">20%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/traveling.png" alt="travelImg">
+                </div>
+                <span class="pieRecord-procent">0%</span>
+              </div>
+              <div class="pieRecord">
+                <div class="pieRecord-img-back">
+                  <img class="pieRecord-img" src="imgs/gift.png" alt="giftImg">
+                </div>
+                <span class="pieRecord-procent">4%</span>
+              </div>
+            </div>
+
+          </div>
+          
+          <div class="right-section-2">
+            
+            <div class="searchNavPanel">
+              <form action="#" class="searchForm">
+                <img class="search" src="imgs/search.png" alt="search">
+                <input class="input" type="search" placeholder="search for records...">
+              </form>
+              <div class="navPanel">
+                <button class="addExpense" id="addExpense">add expense</button>
+                <button class="addRevenue" id="addRevenue">add revenue</button>
+              </div>
+            </div>
+            <!-- records begin -->
+            <div class="records" id="recordsBlock">
+
+              <div class="record">
+                <div class="coverRecord" id="coverRecord">
+                  <div class="coverRecord-wrapper" id="coverRecord-wrapper">
+                    <div class="bottomArrow" id="bottomArrow"></div>
+                    <img class="imgRecord" src="imgs/house.png" alt="houseImg">
+                    <p>House</p>
+                    <div class="numberOfRecords">1</div>
+                  </div>
+                  <div class="priceRecord expense">1350zł</div>
+                </div>
+                <div class="allMiniRecord_none" id="allMiniRecord">
+                  <div class="miniRecord">
+                    <div class="miniRecord-wrapper">
+                      <div class="circleMiniRecord circleExpense"></div>
+                      <div class="accuratePriceMiniRecord">1350zł</div>
+                      <span class="descriptionMiniRecord">Biedra</span>
+                    </div>
+                    <span class="dateMiniRecord">10 Sep</span>
+                  </div>
+                  <div class="miniRecord">
+                    <div class="miniRecord-wrapper">
+                      <div class="circleMiniRecord circleExpense"></div>
+                      <div class="accuratePriceMiniRecord">22zł</div>
+                      <span class="descriptionMiniRecord">Kebab</span>
+                    </div>
+                    <span class="dateMiniRecord">10 Sep</span>
+                  </div>
+                  <div class="miniRecord">
+                    <div class="miniRecord-wrapper">
+                      <div class="circleMiniRecord circleExpense"></div>
+                      <div class="accuratePriceMiniRecord">22zł</div>
+                      <span class="descriptionMiniRecord">Kebab</span>
+                    </div>
+                    <span class="dateMiniRecord">10 Sep</span>
+                  </div>
+                  <div class="miniRecord">
+                    <div class="miniRecord-wrapper">
+                      <div class="circleMiniRecord circleExpense"></div>
+                      <div class="accuratePriceMiniRecord">22zł</div>
+                      <span class="descriptionMiniRecord">Kebab</span>
+                    </div>
+                    <span class="dateMiniRecord">10 Sep</span>
+                  </div>
+                  <div class="miniRecord">
+                    <div class="miniRecord-wrapper">
+                      <div class="circleMiniRecord circleExpense"></div>
+                      <div class="accuratePriceMiniRecord">22zł</div>
+                      <span class="descriptionMiniRecord">Kebab</span>
+                    </div>
+                    <span class="dateMiniRecord">10 Sep</span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <!-- records end -->
+
+            <div class="addMenu" id="addMenu">
+              <div class="addMenu-nav">
+                <div class="leftArrow-back" id="leftArrow">
+                  <div class="leftArrow"></div>
+                </div>
+                <!-- <div class="addMenu-info">New Expense</div> -->
+                <div class="addMenu-date"><img src="imgs/calendar-check.png" alt="miniCalendar"><span>Friday, September 8</span></div>
+              </div>
+              <button class="addRecord" type="button" id="addRecord">add record</button>
+              <div class="ammountField">
+                <input id="inputFieldPrice" class="inputFieldButton" type="number" placeholder="0">
+                <div class="currencieChange"><img src="imgs/money.png" alt="money"><span>PLN</span></div>
+              </div>
+              <div class="countButtons">
+                <button class="plusButton countButton">+</button>
+                <button class="minusButton countButton">-</button>
+                <button class="multiplyButton countButton">*</button>
+                <button class="divisionButton countButton">/</button>
+                <button class="dotButton countButton">.</button>
+                <button class="equalButton countButton">=</button>
+              </div>
+              <div class="addNote">
+                <img src="imgs/writing.png" class="writingImg" alt="writingImg">
+                <input placeholder="Add note" id="addNoteInput" type="text" class="addNoteInput">
+              </div>
+              
+              <span class="chooseCategory">Choose category</span>
+              <div id="categories" class="categories">
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/house.png" alt="houseImg">
+                  <div>Home</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/healthcare.png" alt="healthcareImg">
+                  <div>Health</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/boxing.png" alt="boxingImg">
+                  <div>Sport</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/dental-hygiene.png" alt="hygieneImg">
+                  <div>Hygiene</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/gift.png" alt="giftImg">
+                  <div>Gifts</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/groceries.png" alt="groceriesImg">
+                  <div>Groceries</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/hot-coffee.png" alt="caffeImg">
+                  <div>Cafe</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/movies.png" alt="moviesImg">
+                  <div>Recreation</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/subway.png" alt="subwayImg">
+                  <div>Transport</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/traveling.png" alt="travelImg">
+                  <div>Travel</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/wifi.png" alt="wifiImg">
+                  <div>Network</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/bill.png" alt="billImg">
+                  <div>Bills</div>
+                </div>
+                <div class="categoriesImgText">
+                  <img class="categoriesImg" id="categoriesImg" src="imgs/products.png" alt="productsImg">
+                  <div>Products</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+      
+      
+
+  </body>
+</html>
